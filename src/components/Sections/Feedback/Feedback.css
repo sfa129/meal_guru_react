@@ -1,0 +1,190 @@
+.feedback {
+    background-color: #FFF7E3;
+    height: 360px;
+    width: 100%;
+}
+
+.feedback-heading h2 {
+    color: #1A244D;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.feed-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    margin-top: 35px;
+}
+
+.feed-box {
+    width: 300px;
+    height: 190px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.feedbox-text {
+    margin: 25px 24px 0px 24px;
+}
+
+.feedbox-text p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.feedbox-box {
+    background-color: #ffcc57;
+    height: 70px;
+    width: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 55px;
+    display: flex;
+}
+
+.three {
+    margin-top: 35px;
+}
+
+.feedbox-box img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.feedbox-box p {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* Breakpoints */
+
+@media (max-width: 1200px) {
+
+    .feed-boxes {
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+        margin-top: 35px;
+    }
+
+    .feed-box {
+        width: 28vw;
+        height: 32vh;
+        background-color: #ffffff;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+    .feedbox-text {
+        margin: 25px 24px 0px 24px;
+    }
+
+    .feedbox-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .feedbox-box {
+        background-color: #ffcc57;
+        height: 11.7vh;
+        width: 28vw;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-top: 55px;
+        display: flex;
+    }
+
+    .three {
+        margin-top: 35px;
+    }
+
+}
+
+/* Medium: 769px to 992px */
+@media (max-width: 992px) {
+    .feed-boxes {
+        gap: 1rem;
+    }
+
+    .feed-box {
+        width: 27vw;
+    }
+
+    .feedback-heading h2 {
+        font-size: 35px;
+    }
+
+    .feedbox-text {
+        margin: 25px 24px 0px 24px;
+    }
+
+    .feedbox-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .feedbox-box {
+        width: 27vw;
+        margin-top: 35px;
+        display: flex;
+    }
+
+    .feedbox-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* optional: add ellipsis */
+    }
+
+    .three {
+        margin-top: 35px;
+    }
+
+}
+
+/* Small: 577px to 768px */
+@media (max-width: 768px) {
+    .feedback {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .feed-boxes {
+        width: 90%;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feed-box {
+        width: 300px;
+        height: 190px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feedbox-box {
+        height: 70px;
+        width: 300px;
+        margin-top: 55px;
+    }
+
+    .three {
+        margin-top: 35px;
+    }
+
+}

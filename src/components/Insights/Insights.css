@@ -1,0 +1,41 @@
+.InsightSection {
+    background-color: #fff7e3;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: auto;
+    width: 100%;
+}
+
+.Insight-Text h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Insight-Text p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}  
+
+/* Insight-Card */
+
+.Insight-Div {
+    background-color: #fff7e3;
+    /* border: 2px solid black; */
+    height: auto;
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}

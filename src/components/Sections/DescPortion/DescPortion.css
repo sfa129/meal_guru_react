@@ -1,0 +1,261 @@
+.choose-two {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.choose-img {
+    width: 460px;
+    height: 280px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.choose-contents {
+    margin-left: 20px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.choose-contents h2 {
+    color: #1A244D;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.choose-contents h4 {
+    color: #1A244D;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.choose-contents p {
+    color: #696969;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.choose-text-btn {
+    height: 30px;
+    width: 190px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 15px
+}
+
+.choose-text-btn p {
+    font-size: 12px;
+    color: #000000;
+    padding-top: 2px;
+}
+
+/* chatgpt base css */
+/* 
+.choose-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.choose-img {
+    width: 460px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.choose-contents {
+    max-width: 500px;
+    margin: auto;
+}
+
+.choose-contents h2 {
+    color: #1A244D;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.choose-contents h4 {
+    color: #1A244D;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.choose-contents p {
+    color: #696969;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.choose-text-btn {
+    height: 30px;
+    width: 190px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.choose-text-btn p {
+    font-size: 12px;
+    color: #000000;
+    padding-top: 2px;
+} */
+
+/* Breakpoints */
+/* Extra Large Screens (≥ 1200px) */
+@media screen and (min-width: 1200px) {
+    .choose-contents h2 {
+        font-size: 42px;
+    }
+
+    .choose-img {
+        width: 480px;
+        height: 300px;
+    }
+}
+
+/* Large Screens (≥ 992px and < 1200px) */
+@media screen and (max-width: 1199px) {
+    .choose-contents h2 {
+        font-size: 36px;
+    }
+
+    .choose-img {
+        width: 420px;
+        height: 260px;
+    }
+}
+
+/* Medium Screens (≥ 768px and < 992px) */
+@media screen and (max-width: 991px) {
+    .choose-img {
+        width: 43vw;
+    }
+
+    .choose-contents {
+        text-align: left;
+        width: 40vw;
+    }
+
+    .choose-contents h2 {
+        font-size: 32px;
+        /* text-align: center; */
+    }
+
+    .choose-contents h4 {
+        font-size: 22px;
+        /* text-align: center; */
+    }
+
+    .choose-contents p {
+        font-size: 13px;
+    }
+
+    .choose-text-btn {
+        /* margin: 0 auto; */
+    }
+}
+
+/* Small Screens (≥ 576px and < 768px) */
+@media screen and (max-width: 767px) {
+    .choose-two {
+        margin-top: -30px;
+        padding-top: 0px;
+    }
+
+    .choose-img {
+        width: 43vw;
+        height: 40vh;
+    }
+
+    .choose-contents {
+        text-align: left;
+        width: 40vw;
+    }
+
+    .choose-contents h2 {
+        font-size: 28px;
+    }
+
+    .choose-contents h4 {
+        font-size: 20px;
+    }
+}
+
+/* Extra Small Screens (< 576px) */
+@media screen and (max-width: 575px) {
+    .choose-two {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .image-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .choose-img {
+        width: 70vw;
+        padding-bottom: 30px;
+
+    }
+
+    .choose-contents {
+        /* text-align: center; */
+        width: 70vw;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    .choose-contents h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .choose-contents h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .choose-contents p {
+        font-size: 12px;
+        text-align: center;
+        
+    }
+
+    .choose-text-btn {
+        width: 150px;
+        height: 28px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .choose-text-btn p {
+        font-size: 11px;
+    }
+}

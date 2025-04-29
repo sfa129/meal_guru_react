@@ -1,0 +1,54 @@
+.insight-card {
+    /* border: 2px solid black; */
+    width: 440px;
+    height: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    padding: 15px 10px 5px 10px;
+    background-color: #f8f8f8; /* Soft greyish tone */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.inside-card {
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 30px -30px black;
+    background-color: #ffffff;
+    width: 96%;
+    height: 96%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* .insight-content {
+
+} */
+
+.inside-card img {
+    height: 150px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.inside-card h2 {
+    color: #1a244d;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.inside-card p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-right: 18px;
+    margin-left: 18px;
+    text-align: justify;
+    justify-content: space-between;
+    line-height: 18px;
+}

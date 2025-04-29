@@ -1,0 +1,197 @@
+/* .choose {
+    background-color: white;
+    height: 500px;
+}
+.choose-one {
+    padding-bottom: 80px;
+}
+.choose h2 {
+    color: #1a244d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+}
+
+.box {
+    width: 185px;
+    height: 330px;
+}
+
+.box img {
+    height: 170px;
+    width: 170px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box h4 {
+    color: #1a244d;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.box p {
+    color: #696969;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+
+ */
+
+
+ .choose {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.choose-one {
+    padding-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choose h2 {
+    color: #1a244d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.box {
+    width: 185px;
+    height: auto;
+    flex: 1 1 180px;
+    max-width: 250px;
+}
+
+.box img {
+    height: 170px;
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box h4 {
+    color: #1a244d;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.box p {
+    color: #696969;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+/* Breakpoint 1: Extra Large Screens (≥ 1200px) */
+@media screen and (min-width: 1200px) {
+    .choose h2 {
+        font-size: 42px;
+    }
+}
+
+/* Breakpoint 2: Large Screens (≥ 992px and < 1200px) */
+@media screen and (max-width: 1199px) {
+    .box {
+        max-width: 220px;
+        
+    }
+}
+
+/* Breakpoint 3: Medium Screens (≥ 768px and < 992px) */
+@media screen and (max-width: 991px) {
+    
+    .boxes {
+        gap: 0px;
+    }
+    .box {
+        max-width: 200px;
+    }
+
+    .box img {
+        width: 145px;
+        height: auto;
+    }
+
+    .choose h2 {
+        font-size: 36px;
+    }
+
+    .choose h4 {
+        font-size: 20px;
+    }
+
+    .choose p {
+        font-size: 12px;
+    }
+}
+
+/* Breakpoint 4: Small Screens (≥ 576px and < 768px) */
+@media screen and (max-width: 767px) {
+    .boxes {
+        gap: 0px;
+    }
+
+    .box {
+        /* max-width: 100%; */
+        
+        margin-bottom: 30px;
+        
+    }
+
+    .box p {
+        /* width: 160px; */
+    }
+    .choose h2 {
+        font-size: 32px;
+    }
+
+    .choose p {
+        
+    }
+}
+
+/* Breakpoint 5: Extra Small Screens (< 576px) */
+@media screen and (max-width: 575px) {
+    .box img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .box h4 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .choose h2 {
+        font-size: 28px;
+    }
+}

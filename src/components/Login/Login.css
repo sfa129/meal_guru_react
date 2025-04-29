@@ -1,0 +1,152 @@
+.login {
+    display: flex;
+}
+
+.login-img {
+    width: 50%;
+    height: 100%;
+}
+
+.login-img img {
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -4px;
+    margin-top: 35px;
+}
+/* login form */
+
+.login-div {
+    margin-top: 90px;
+    width: 50%;
+    height: auto;
+    background-color: #fff7e3;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 85%;
+    height: 460px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+
+.login-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-logo img {
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.login-fields {
+    margin: 20px;
+    /* border: 2px solid black; */
+}
+
+.login-fields h2 {
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.login-fields p {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    color: #212529;
+}
+
+/* Email here */
+
+.login-email {
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+}
+
+.login-email input {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid rgb(178, 177, 177);
+    padding: 11px 20px;
+
+}
+
+.login-email input::placeholder {
+    color: rgb(178, 177, 177);
+    font-size: 12px;
+}
+
+.login-email input:focus {
+    outline:none;
+}
+
+.icons {
+    font-size: 15px;
+    color: rgb(178, 177, 177);
+    position: absolute;
+    /* margin-right: 220px; */
+    margin-top: 10px;
+}
+
+.login-email span {
+    position: absolute;
+    margin-right: -420px;
+    margin-top: 2px;
+}
+
+.forgot {
+    text-align: right;
+    color: #4a4a4a;
+    margin-top: -55px;
+}
+
+/* button */
+
+.button-login {
+    height: 30px;
+    width: 100%;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top:30px;
+}
+
+.button-login:hover {
+    cursor: pointer;;
+}
+
+/* signup */
+
+.signup {   
+    color: blue;
+}
+
+.signup span {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+ 

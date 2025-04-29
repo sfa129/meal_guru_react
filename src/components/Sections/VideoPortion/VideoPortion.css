@@ -1,0 +1,268 @@
+/* .video iframe {
+    height: 270px;
+    width: 460px;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.video-portion {
+    background-color: #fff7e3;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-div {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 950px;
+
+}
+
+.video-text h2 {
+    color: #1a244d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    text-align: justify;
+    color: #696969;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.video-text {
+    margin-left: 20px;
+    margin-top:15px;
+}
+
+.video-text-btn {
+    height: 30px;
+    width: 180px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 15px
+}
+
+.video-text-btn p {
+    font-size: 13px;
+    color: #000000;
+}
+
+
+ */
+
+
+/* Base styles (Extra Large: 1201px and above) */
+.video-portion {
+    background-color: #fff7e3;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-div {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 950px;
+}
+
+.video iframe {
+    height: 270px;
+    width: 460px;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.video-text {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.video-text h2 {
+    color: #1a244d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    text-align: justify;
+    color: #696969;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.video-text-btn {
+    height: 30px;
+    width: 180px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.video-text-btn p {
+    font-size: 13px;
+    color: #000000;
+}
+
+/* Large: 993px to 1200px */
+@media (max-width: 1200px) {
+    .inner-div {
+        width: 850px;
+    }
+
+    .video iframe {
+        width: 420px;
+        height: 250px;
+        border-radius: 10px;
+        background-size: contain;
+    }
+
+    .video-text h2 {
+        font-size: 36px;
+    }
+
+    .video-text p {
+        font-size: 12px;
+    }
+}
+
+/* Medium: 769px to 992px */
+@media (max-width: 992px) {
+    .inner-div {
+        width: 720px;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .video-portion {
+        height: auto;
+        margin-top: 0px;
+        padding: 20px 0px;
+    }
+
+    .video iframe {
+        height: 260px;
+        width: 380px;
+        border-radius: 10px;
+        background-size: contain;
+    }
+
+    .video-text {
+        margin: auto 0 auto;
+        text-align: center;
+        /* margin-top: auto;
+        margin-bottom: auto; */
+    }
+
+    .video-text h2 {
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .video-text p {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+
+}
+
+/* Small: 577px to 768px */
+@media (max-width: 768px) {
+    .inner-div {
+        width: 83%;
+        padding: 20px;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .video iframe {
+        height: 210px;
+        width: 270px;
+        border-radius: 10px;
+        background-size: contain;
+    }
+    .video-text {
+        width: 50%;
+    }
+    .video-text h2 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .video-text p {
+        font-size: 11px;
+    }
+
+    .video-text-btn {
+        width: 160px;
+        height: 28px;
+    }
+
+    .video-text-btn p {
+        font-size: 12px;
+    }
+}
+
+/* Extra Small: up to 576px */
+@media (max-width: 576px) {
+    .inner-div {
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-portion {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .video iframe {
+        width: 70vw;
+        height: 35vh;
+    }
+
+    .video-text {
+        margin: 20px 0 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .video-text h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .video-text p {
+        font-size: 10px;
+    }
+
+    .video-text-btn {
+        width: 140px;
+        height: 26px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .video-text-btn p {
+        font-size: 11px;
+    }
+}
