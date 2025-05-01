@@ -1,5 +1,5 @@
 import React from 'react';
-import './login.css';
+import './Login.css';
 import { loginimg, logo } from '../../assets/images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEyeSlash, faEye } from '@fortawesome/free-solid-svg-icons';
