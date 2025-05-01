@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import { Link, NavLink } from 'react-router-dom';
 import { logo, facebook, tiktok, youtube, instagram } from '../../assets/images';
 

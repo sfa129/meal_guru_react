@@ -1,5 +1,5 @@
 import React from 'react';
-import './feedback.css';
+import './Feedback.css';
 import { feed1, feed2, feed3 } from '../../../assets/images'
 
 function Feedback() {
