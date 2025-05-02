@@ -46,7 +46,7 @@ function Footer() {
 
           <div className="fourthcol">
             <p className="first-para">Subscribe To Our Newletter!</p>
-            <p className="second-para">Let us help you eat healthier with our newsletter! Get recipes, <br /> tips,
+            <p className="second-para">Let us help you eat healthier with our newsletter! Get recipes, tips,
               and knowledge delivered to your inbox. Subscribe now.</p>
             <div className="subscribe">
               <input type="text" placeholder="Your Email" />

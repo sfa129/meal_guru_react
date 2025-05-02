@@ -232,18 +232,19 @@
 
     .video-portion {
         height: auto;
+        margin-top: -10px;
         padding: 20px 10px;
     }
 
     .video iframe {
-        width: 70vw;
+        width: 82vw;
         height: 35vh;
     }
 
     .video-text {
         margin: 20px 0 0;
         text-align: center;
-        width: 80%;
+        width: 97%;
     }
 
     .video-text h2 {

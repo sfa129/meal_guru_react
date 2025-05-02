@@ -211,4 +211,14 @@
         width: 70vw;
         margin-right: 30px;
     }
+    .fourthcol {
+        width: 80vw;
+        margin-top: 10px;
+    }
+    .first-para {
+        margin-bottom: -10px;
+    }
+    .subscribe  {
+        width: 80vw;
+    }
 }

@@ -308,6 +308,6 @@ header {
 /* Extra Small: up to 576px */
 @media (max-width: 576px) {
     .navbar {
-        width: 85%;
+        width: 87%;
     }
 }
