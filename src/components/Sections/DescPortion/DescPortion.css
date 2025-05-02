@@ -135,6 +135,7 @@
     .choose-img {
         width: 480px;
         height: 300px;
+        
     }
 }
 
@@ -220,8 +221,8 @@
 
     .choose-img {
         width: 82vw;
-        height: 35vh;
-        padding-bottom: 30px;
+        height: 30vh;
+        margin-bottom: 30px;
 
     }
 
