@@ -220,6 +220,7 @@
 
     .choose-img {
         width: 82vw;
+        height: 35vh;
         padding-bottom: 30px;
 
     }
@@ -255,6 +256,10 @@
     }
 
     .choose-text-btn p {
+        font-size: 11px;
+    }
+
+    .box-btn1 p, .box-btn2 p {
         font-size: 11px;
     }
 }
